@@ -24,7 +24,7 @@ $(function(){
 	});
 	/*select -> change  */
 	$('.numBtn1').click(function(){
-		num1 = $(this).text();//val();
+		num1 = $(this).val();
 		//alert(num1+"");
 		if(num1!=0){
 			data1="º∫¿Œ: "+num1+" ";
