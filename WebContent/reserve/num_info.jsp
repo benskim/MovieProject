@@ -61,7 +61,8 @@ $(function(){
 		 <td align=center width=30>ΌΊΐΞ </td>
 		 <td align=right>
 	<c:forEach var="i" begin="1" end="5">
-	 		<button class="numBtn1" num="${i }" value="${i }" id="numbtn1">${i }</button>
+			<input type="button" class="numBtn1" id="numBtn1" value="${i }">
+	 		<%-- <button class="numBtn1" num="${i }" value="${i }" id="numbtn1">${i }</button> --%>
 		 	<!-- <input type="button" class="numBtn1" id="numBtn1" value=""> -->
     </c:forEach>
           <span>Έν</span>
